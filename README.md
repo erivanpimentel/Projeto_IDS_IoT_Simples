@@ -3,6 +3,8 @@
 📡 **Projeto IDS IoT simplês com rede DL**  
 🔍 Este projeto envolve a manipulação da base de dados, tratamento, criação do modelo, treinamento e validação.
 
+🔥 **Foi utilizado o jupyter notebook** junto ao anaconda para dedsenvolver o projeto.
+
 ## 📂 Estrutura do Projeto
 
 1. **Manipulação da Base de Dados**  
@@ -16,3 +18,4 @@
 
 4. **Treinamento e Validação**  
    - Treinamento do modelo com os dados tratados e posterior validação para avaliação de desempenho.
+
