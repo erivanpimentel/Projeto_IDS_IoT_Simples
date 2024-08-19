@@ -6,14 +6,14 @@
 🔥 **Foi utilizado o jupyter notebook** junto ao anaconda para dedsenvolver o projeto.
 ## 📂 Estrutura do Projeto
 
-**Introdução**
+✅**Introdução**
 
 O objetivo deste projeto é treinar uma rede neural para classificação de dados em um conjunto
 de dados de ataques IoT. A rede neural será desenvolvida utilizando a biblioteca TensorFlow
 com a interface Keras. O modelo será treinado para prever a classe correta para cada entrada
 de dados.
 
-**Conjunto de Dados**
+✅**Conjunto de Dados**
 
 O conjunto de dados CicIoT2023 que foi desenvolvido pelo
 Instituto Canadense de
@@ -21,7 +21,7 @@ Segurança Cibernética (CIC) é utilizado nesse projeto contendo 33 dados de at
 divididos em sete catégorias, sendo elas DDoS, DoS, Recon, Web-based, Brute Force,
 Spoofing e Mirai.
 
-**Pré-processamento dos Dados**
+✅**Pré-processamento dos Dados**
 
 Antes do treinamento do modelo, os dados foram pré-processados da seguinte forma:
 Como os dados originais são compostos por 33 rotulos distintos. Foi modificado os rotulos
@@ -34,14 +34,14 @@ X:Y:Z.
 Foram criados bases de dados utilizando técnicas de smote e sampling para dados
 desbalanceados.
 
-**Arquitetura do Modelo**
+✅**Arquitetura do Modelo**
 
 Foi utilizado três arquiteturas de rede neural para o treinamento com os dados de IoT.
 ![imagem redes](./imagemredes.png)
 
 
 
-**Treinamento do Modelo**
+✅**Treinamento do Modelo**
 
     Modelo 1 foi treinado utilizando o algoritmo de otimização Adam com os seguintes
     parâmetros:
@@ -67,7 +67,7 @@ Foi utilizado três arquiteturas de rede neural para o treinamento com os dados 
     Precision, Recall
     O treinamento foi realizado por 200 épocas com um tamanho de lote de 300.
     
-**Avaliação do Modelo**
+✅**Avaliação do Modelo**
 
     Após o treinamento, os modelo foram avaliados utilizando o conjunto de teste separado. As
     seguintes métricas foram calculadas para avaliar o desempenho do modelo:
@@ -77,17 +77,16 @@ Foi utilizado três arquiteturas de rede neural para o treinamento com os dados 
     F1-Score
     Matriz de Confusão
 
-**Conclusões**
+✅**Conclusões**
 
-Com base nos resultados obtidos, podemos concluir que os modelos treinados com a base de
-dados normais, sem a aplicação de técnicas de sampling ou SMOTE, são capazes de atingir
-uma acurácia de 84% nos dados de teste. Após realizar melhorias na Rede 1, conseguimos
-aumentar essa acurácia para 87%.
-O modelo treinado pode fazer classificações com boa precisão. No entanto, ainda há espaço
-para melhorias, especialmente em relação a certas classes que foram mais difíceis de prever,
-conforme mostrado nas figuras. Passos futuros podem incluir a experimentação com
-diferentes arquiteturas de rede, o ajuste de hiperparâmetros e o aumento da quantidade de
-dados para aprimorar ainda mais o desempenho do modelo.
+    Com base nos resultados obtidos, podemos concluir que os modelos treinados com a base de
+    dados normais, sem a aplicação de técnicas de sampling ou SMOTE, são capazes de atingir
+    uma acurácia de 84% nos dados de teste. Após realizar melhorias na Rede 1, conseguimos
+    aumentar essa acurácia para 87%.
+    O modelo treinado pode fazer classificações com boa precisão. No entanto, ainda há espaço
+    para melhorias, especialmente em relação a certas classes que foram mais difíceis de prever.
+    Passos futuros podem incluir a experimentação com diferentes arquiteturas de rede,
+    o ajuste de hiperparâmetros e o aumento da quantidade de dados para aprimorar ainda mais o desempenho do modelo.
 
 
 
