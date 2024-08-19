@@ -43,50 +43,50 @@ Foi utilizado três arquiteturas de rede neural para o treinamento com os dados 
 
 ✅**Treinamento do Modelo**
 
-    Modelo 1 foi treinado utilizando o algoritmo de otimização Adam com os seguintes
-    parâmetros:
-    Taxa de Aprendizado: 1e-3
-    Função de Perda: categorical_crossentropy
-    Métricas de Avaliação:False Negatives, False Positives, True Negatives, True Positives,
-    Precision, RecallO treinamento foi realizado por 200 épocas com um tamanho de lote de 300.
+Modelo 1 foi treinado utilizando o algoritmo de otimização Adam com os seguintes
+parâmetros:
+Taxa de Aprendizado: 1e-3
+Função de Perda: categorical_crossentropy
+Métricas de Avaliação:False Negatives, False Positives, True Negatives, True Positives,
+Precision, RecallO treinamento foi realizado por 200 épocas com um tamanho de lote de 300.
 
 
-    Modelo 2 foi treinado utilizando o algoritmo de otimização Adam com os seguintes
-    parâmetros:
-    Taxa de Aprendizado: 1e-3
-    Função de Perda: categorical_crossentropy
-    Métricas de Avaliação:False Negatives, False Positives, True Negatives, True Positives,
-    Precision, Recall
-    O treinamento foi realizado por 200 épocas com um tamanho de lote de 300.
+Modelo 2 foi treinado utilizando o algoritmo de otimização Adam com os seguintes
+parâmetros:
+Taxa de Aprendizado: 1e-3
+Função de Perda: categorical_crossentropy
+Métricas de Avaliação:False Negatives, False Positives, True Negatives, True Positives,
+Precision, Recall
+O treinamento foi realizado por 200 épocas com um tamanho de lote de 300.
 
-    Modelo 3 foi treinado utilizando o algoritmo de otimização Adam com os seguintes
-    parâmetros:
-    Taxa de Aprendizado: 1e-3
-    Função de Perda: categorical_crossentropy
-    Métricas de Avaliação:False Negatives, False Positives, True Negatives, True Positives,
-    Precision, Recall
-    O treinamento foi realizado por 200 épocas com um tamanho de lote de 300.
+Modelo 3 foi treinado utilizando o algoritmo de otimização Adam com os seguintes
+parâmetros:
+Taxa de Aprendizado: 1e-3
+Função de Perda: categorical_crossentropy
+Métricas de Avaliação:False Negatives, False Positives, True Negatives, True Positives,
+Precision, Recall
+O treinamento foi realizado por 200 épocas com um tamanho de lote de 300.
     
 ✅**Avaliação do Modelo**
 
-    Após o treinamento, os modelo foram avaliados utilizando o conjunto de teste separado. As
-    seguintes métricas foram calculadas para avaliar o desempenho do modelo:
-    
-    Precisão
-    Recall
-    F1-Score
-    Matriz de Confusão
+Após o treinamento, os modelo foram avaliados utilizando o conjunto de teste separado. As
+seguintes métricas foram calculadas para avaliar o desempenho do modelo:
+
+Precisão
+Recall
+F1-Score
+Matriz de Confusão
 
 ✅**Conclusões**
 
-    Com base nos resultados obtidos, podemos concluir que os modelos treinados com a base de
-    dados normais, sem a aplicação de técnicas de sampling ou SMOTE, são capazes de atingir
-    uma acurácia de 84% nos dados de teste. Após realizar melhorias na Rede 1, conseguimos
-    aumentar essa acurácia para 87%.
-    O modelo treinado pode fazer classificações com boa precisão. No entanto, ainda há espaço
-    para melhorias, especialmente em relação a certas classes que foram mais difíceis de prever.
-    Passos futuros podem incluir a experimentação com diferentes arquiteturas de rede,
-    o ajuste de hiperparâmetros e o aumento da quantidade de dados para aprimorar ainda mais o desempenho do modelo.
+Com base nos resultados obtidos, podemos concluir que os modelos treinados com a base de
+dados normais, sem a aplicação de técnicas de sampling ou SMOTE, são capazes de atingir
+uma acurácia de 84% nos dados de teste. Após realizar melhorias na Rede 1, conseguimos
+aumentar essa acurácia para 87%.
+O modelo treinado pode fazer classificações com boa precisão. No entanto, ainda há espaço
+para melhorias, especialmente em relação a certas classes que foram mais difíceis de prever.
+Passos futuros podem incluir a experimentação com diferentes arquiteturas de rede,
+o ajuste de hiperparâmetros e o aumento da quantidade de dados para aprimorar ainda mais o desempenho do modelo.
 
 
 
