@@ -45,37 +45,41 @@ Foi utilizado três arquiteturas de rede neural para o treinamento com os dados 
 
 Modelo 1 foi treinado utilizando o algoritmo de otimização Adam com os seguintes
 parâmetros:
-Taxa de Aprendizado: 1e-3
-Função de Perda: categorical_crossentropy
-Métricas de Avaliação:False Negatives, False Positives, True Negatives, True Positives,
-Precision, RecallO treinamento foi realizado por 200 épocas com um tamanho de lote de 300.
+
+    Taxa de Aprendizado: 1e-3
+    Função de Perda: categorical_crossentropy
+    Métricas de Avaliação: False Negatives, False Positives, True Negatives, True Positives,
+    Precision, Recall.
+    O treinamento foi realizado por 200 épocas com um tamanho de lote de 300.
 
 
 Modelo 2 foi treinado utilizando o algoritmo de otimização Adam com os seguintes
 parâmetros:
-Taxa de Aprendizado: 1e-3
-Função de Perda: categorical_crossentropy
-Métricas de Avaliação:False Negatives, False Positives, True Negatives, True Positives,
-Precision, Recall
-O treinamento foi realizado por 200 épocas com um tamanho de lote de 300.
+
+    Taxa de Aprendizado: 1e-3
+    Função de Perda: categorical_crossentropy
+    Métricas de Avaliação:False Negatives, False Positives, True Negatives, True Positives,
+    Precision, Recall
+    O treinamento foi realizado por 200 épocas com um tamanho de lote de 300.
 
 Modelo 3 foi treinado utilizando o algoritmo de otimização Adam com os seguintes
 parâmetros:
-Taxa de Aprendizado: 1e-3
-Função de Perda: categorical_crossentropy
-Métricas de Avaliação:False Negatives, False Positives, True Negatives, True Positives,
-Precision, Recall
-O treinamento foi realizado por 200 épocas com um tamanho de lote de 300.
-    
+
+    Taxa de Aprendizado: 1e-3
+    Função de Perda: categorical_crossentropy
+    Métricas de Avaliação:False Negatives, False Positives, True Negatives, True Positives,
+    Precision, Recall
+    O treinamento foi realizado por 200 épocas com um tamanho de lote de 300.
+        
 ✅**Avaliação do Modelo**
 
 Após o treinamento, os modelo foram avaliados utilizando o conjunto de teste separado. As
 seguintes métricas foram calculadas para avaliar o desempenho do modelo:
 
-Precisão
-Recall
-F1-Score
-Matriz de Confusão
+    Precisão
+    Recall
+    F1-Score
+    Matriz de Confusão
 
 ✅**Conclusões**
 
