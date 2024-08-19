@@ -37,7 +37,7 @@ desbalanceados.
 **Arquitetura do Modelo**
 
 Foi utilizado três arquiteturas de rede neural para o treinamento com os dados de IoT.
-![imagem redes](./Captura de tela de 2024-08-19 17-39-27.png)
+![imagem redes](./imagemredes.png)
 
 
 
